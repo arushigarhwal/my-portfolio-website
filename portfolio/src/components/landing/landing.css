@@ -1,0 +1,67 @@
+#intro{
+    height: calc(80vh - 4rem);
+    width: 100vw;
+    max-width: 75vw;
+    margin: 0 auto;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 800;
+    justify-content: center;
+}
+.Hello{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.introText{
+    font-weight: 550;
+}
+.introPara{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.btn{
+    padding-top: 20px;
+}
+.hireMe {
+    background-color: wheat;
+    color: rgb(31, 29, 29);
+    border: 2px solid wheat;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
+.hireMe:hover {
+    background-color: rgb(31, 29, 29);
+    color: wheat;
+    cursor: pointer;
+}
+.hireMe img {
+    margin-right: 10px;
+    width: 30px;
+    color: wheat;
+}
+.hireMe span {
+    position: relative;
+    top: 2px;
+}
+@media screen and (max-width:700) {
+    .introText{
+        font-size: 10vw;
+    }
+    .Hello{
+        font-size: 4.5vw;
+    }
+}
