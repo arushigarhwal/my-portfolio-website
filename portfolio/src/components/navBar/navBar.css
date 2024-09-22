@@ -1,0 +1,27 @@
+.navbar{
+    height: 5rem;
+    width: 80vw;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.items{
+    margin: 2rem;
+    cursor: pointer;
+
+}
+.items:hover{
+    padding-bottom: 1rem;
+    border-bottom: .15rem solid wheat;
+}
+.contactme{
+    background-color: wheat;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
