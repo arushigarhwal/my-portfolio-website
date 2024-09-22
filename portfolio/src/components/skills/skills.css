@@ -7,6 +7,12 @@
     
 
   }
+  .title{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
   .skillHeader{
     display: flex;
     justify-content: space-between;  
