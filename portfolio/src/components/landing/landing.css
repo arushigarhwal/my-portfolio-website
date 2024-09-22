@@ -3,6 +3,7 @@
     width: 100vw;
     max-width: 75vw;
     margin: 0 auto;
+    margin-bottom: 25px;
 }
 .content{
     display: flex;
@@ -63,5 +64,15 @@
     }
     .Hello{
         font-size: 4.5vw;
+    }
+    #intro{
+        margin-bottom: 15px;
+        z-index: 1;
+        position: relative;
+    }
+}
+@media screen and (max-width:470){
+    #intro{
+        margin-bottom: 15px;
     }
 }

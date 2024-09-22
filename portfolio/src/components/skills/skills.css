@@ -1,0 +1,62 @@
+#skills {
+    width: 80vw;
+    max-width: 80rem;
+    margin:  auto;
+    padding: 1rem 2rem;
+    margin-top: 50px;
+    
+
+  }
+  .skillHeader{
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;  
+  }
+  .name {
+    font-size: 16px;
+    margin: 0;
+  }
+  .level {
+    font-size: 16px;
+    margin: 0;
+  }
+  .skill {
+    margin-bottom: 20px;
+  }
+  
+  .bar {
+    background-color: #2e2e48;
+    border-radius: 25px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    height: 20px;
+    border-radius: 25px;
+    background: wheat;
+  }
+  
+  .advanced {
+    width: 100%;
+  }
+
+  .average{
+    width: 85%
+  }
+  
+  .regular {
+    width: 70%;
+  }
+  
+  .beginner {
+    width: 40%;
+  }
+  
+  @media screen and (max-width:470){
+    #skills{
+        margin-top: 20px;
+        position: relative;
+        z-index: 0;
+    }
+    
+  }

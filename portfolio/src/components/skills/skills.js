@@ -4,16 +4,89 @@ const Skills = () => {
   return (
     <section id ='skills'>
         <h2>Skills</h2>
-        <div className="skills-container">
-          <div className="skills-item">
-            <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-            <p>HTML5</p>
-          </div>
-          <div className="skills-item">
-            <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-            <p>CSS3</p>
-          </div>
-          </div>
+        <div class="skill">
+        <div class='skillHeader'>
+            <p class='name'>Web Development</p>
+            <p class='level'>(Advanced)</p>
+            </div>
+            <div class="bar">
+            <div class="progress advanced"></div>
+            </div>
+        </div>
+        <div class="skill">
+        <div class='skillHeader'>
+            <p class='name'>DataBase Management</p>
+            <p class='level'>(Advanced)</p>
+            </div>
+            <div class="bar">
+            <div class="progress advanced"></div>
+            </div>
+        </div>
+        <div class="skill">
+        <div class='skillHeader'>
+            <p class='name'>Operating System</p>
+            <p class='level'>(Average)</p>
+            </div>
+            <div class="bar">
+            <div class="progress average"></div>
+            </div>
+        </div>
+        <div class="skill">
+        <div class='skillHeader'>
+            <p class='name'>Machine Learning</p>
+            <p class='level'>(Beginner)</p>
+            </div>
+            <div class="bar">
+            <div class="progress beginner"></div>
+            </div>
+        </div>
+        <div class="skill">            
+            <div class='skillHeader'>
+            <p class='name'>Data Structure and Algorithm</p>
+            <p class='level'>(Regular)</p>
+            </div>
+            <div class="bar">
+            <div class="progress regular"></div>
+            </div>
+        </div>
+        <h2>Programming Languages</h2>
+        <div class="skill">
+        <div class='skillHeader'>
+            <p class='name'>C</p>
+            <p class='level'>(Average)</p>
+            </div>      
+            <div class="bar">
+            <div class="progress average"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class='skillHeader'>
+            <p class='name'>C++</p>
+            <p class='level'>(Advanced)</p>
+            </div>
+            <div class="bar">
+            <div class="progress advanced"></div>
+            </div>
+        </div>
+        <div class="skill">
+        <div class='skillHeader'>
+            <p class='name'>Python</p>
+            <p class='level'>(Advanced)</p>
+            </div>
+            <div class="bar">
+            <div class="progress advanced"></div>
+            </div>
+        </div>
+        <div class="skill">
+        <div class='skillHeader'>
+            <p class='name'>Java</p>
+            <p class='level'>(Regular)</p>
+            </div>
+            <div class="bar">
+            <div class="progress regular"></div>
+            </div>
+        </div>
+        
     </section>
   )
 }
