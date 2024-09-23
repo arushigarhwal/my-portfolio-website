@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <section id='contact'>
         <div className='title'>
-        Get to Know Me
+        Find Me On
         </div>
         <div className='container'>
         <div className='images'>
