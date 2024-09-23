@@ -6,7 +6,7 @@ import Portfolio from "../../assets/Portfolio.png"
 const Projects = () => {
   return (
     <section id="projects">
-      <h2 className="title">Projects done</h2>
+      <h2 className="title">Projects</h2>
       <span className="description">
         "These projects aim to address real-world challenges through innovative solutions and modern technologies. They demonstrate a strong focus on functionality, efficiency, and user experience."
       </span>

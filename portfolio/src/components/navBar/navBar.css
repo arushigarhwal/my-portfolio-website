@@ -18,7 +18,7 @@
     padding-bottom: 1rem;
     border-bottom: .15rem solid wheat;
 }
-.contactme{
+.resume{
     background-color: wheat;
     color: rgb(31, 29, 29);
     border: 2px solid wheat;
@@ -31,7 +31,7 @@
     align-items: center;
     text-decoration: none;
 }
-.contactme:hover{
+.resume:hover{
     background-color: rgb(31, 29, 29);
     color: wheat;
     cursor: pointer;

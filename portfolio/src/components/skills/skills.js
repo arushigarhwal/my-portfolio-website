@@ -5,6 +5,7 @@ const Skills = () => {
     <section id ='skills'>
         <div className='title'>Skills</div>
         <div class="skill">
+        <h2>Technical Skills</h2>
         <div class='skillHeader'>
             <p class='name'>Web Development</p>
             <p class='level'>(Advanced)</p>

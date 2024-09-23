@@ -10,7 +10,7 @@ const NavBar = () => {
           <Link className='items'>About Me</Link>
           <Link className='items'>Projects</Link>
         </div>
-        <button className='contactme'>Contact Me</button>
+        <button className='resume'>Resume</button>
       </nav>
     </div>
   )
