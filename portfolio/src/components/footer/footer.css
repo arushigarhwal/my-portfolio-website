@@ -1,10 +1,46 @@
-.footer{
-    width: 100vw;
-    height: 3rem;
-    background-color: #2e2e48;
+.footer {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    font-weight: 500;
-    font-size: small;
-}
+    padding: 10px;
+    background-color: #848383;
+    color: rgb(31, 29, 29);
+  }
+  
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .footer-left {
+    text-align: left;
+  }
+  
+  .footer-right {
+    text-align: right;
+  }
+
+.email-link {
+    color: rgb(31, 29, 29);
+    text-decoration: none;
+  }
+  
+  .email-link:hover {
+    text-decoration: underline;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .footer {
+      flex-direction: column;
+    }
+    
+    .footer-left, 
+    .footer-center, 
+    .footer-right {
+      text-align: center;
+      padding: 10px 0;
+    }
+  }
+  

@@ -3,7 +3,9 @@ import "./footer.css"
 const Footer = () => {
   return (
     <footer className="footer">
-        Self Made Website.
+        <div class="footer-left">© 2024 Arushi Garhwal</div>
+        <div class="footer-center">Crafted with ❤️ and Code</div>
+       <div class="footer-right">Contact: <a href="mailto:arushigarhwal@gmail.com" class="email-link"> arushigarhwal@gmail.com</a></div>
     </footer>
   )
 }

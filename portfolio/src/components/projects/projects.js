@@ -2,11 +2,13 @@ import React from 'react';
 import "./projects.css";
 import ECommerce from "../../assets/ECommerce.png";
 import Portfolio from "../../assets/Portfolio.png"
+import Footer from '../footer/footer';
 
 const Projects = () => {
   return (
+    <div>
     <section id="projects">
-      <h2 className="title">Projects</h2>
+      <h2 className="titleProj">Projects</h2>
       <span className="description">
         "These projects aim to address real-world challenges through innovative solutions and modern technologies. They demonstrate a strong focus on functionality, efficiency, and user experience."
       </span>
@@ -27,6 +29,8 @@ const Projects = () => {
         </div>
     </div>
     </section>
+    <Footer/>
+    </div>
   );
 };
 
