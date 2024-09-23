@@ -43,7 +43,12 @@
     padding: 10px;
     
 }
+.project:hover{
+    transform: scale(1.1);
+
+}
 
 .projectDetails {
     max-width: 30rem;
+    color: wheat;
 }

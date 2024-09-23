@@ -14,18 +14,22 @@ const Projects = () => {
       </span>
       <div className="projectsContainer">
         <div className="project">
+          <a href='https://github.com/arushigarhwal/Ecommerce-Shipping-Prediction' target='_blank' rel="noopener noreferrer">
           <img src={ECommerce} alt="E-Commerce Shipping Prediction" className="work" />
           <div className="projectDetails">
             <h3>E-Commerce Shipping Prediction</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lectus vel est ullamcorper feugiat. Sed non orci ac neque mollis gravida.</p>
+            <p>A machine learning solution for predicting e-commerce shipping delays, enhancing logistics efficiency and on-time delivery.</p>
           </div>
+          </a>
         </div>
         <div className="project">
+        <a href='https://github.com/arushigarhwal/my-portfolio-website' target='_blank' rel="noopener noreferrer">
           <img src={Portfolio} alt="Portfolio Website" className="work" />
           <div className="projectDetails">
             <h3>Portfolio Website</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel lectus vel est ullamcorper feugiat. Sed non orci ac neque mollis gravida.</p>
+            <p>A creative portfolio built to highlight my journey, projects, and skills in tech and development.</p>
           </div>
+          </a>
         </div>
     </div>
     </section>
