@@ -6,7 +6,7 @@ import Instagram from "../../assets/instagram-logo.png"
 const Contact = () => {
   return (
     <section id='contact'>
-        <div className='title'>
+        <div className='titleContact'>
         Find Me On
         </div>
         <div className='container'>

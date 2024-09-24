@@ -2,7 +2,7 @@
     height: calc(80vh - 4rem);
     width: 100vw;
     max-width: 75vw;
-    margin: 0 auto;
+    margin: 0 ;
     margin-bottom: 25px;
 }
 .content{
@@ -43,12 +43,9 @@
     display: inline-flex;
     align-items: center;
     text-decoration: none;
+    max-width: fit-content;
 }
-.hireMe:hover {
-    background-color: rgb(31, 29, 29);
-    color: wheat;
-    cursor: pointer;
-}
+
 .hireMe img {
     margin-right: 10px;
     width: 30px;
@@ -58,21 +55,34 @@
     position: relative;
     top: 2px;
 }
-@media screen and (max-width:700) {
-    .introText{
-        font-size: 10vw;
+
+@media screen and (max-width: 700px) {
+    .introText {
+        font-size: 8vw; 
     }
-    .Hello{
-        font-size: 4.5vw;
+    .Hello {
+        font-size: 4.5vw; 
     }
-    #intro{
+    #intro {
+        flex-direction: column; 
         margin-bottom: 15px;
         z-index: 1;
         position: relative;
+        height: auto; 
+    }
+    .content {
+        font-size: 2rem; 
     }
 }
-@media screen and (max-width:470){
-    #intro{
-        margin-bottom: 15px;
+
+@media screen and (max-width: 470px) {
+    .content {
+        font-size: 1.5rem; 
+    }
+    .Hello {
+        font-size: 4vw; 
+    }
+    .introText {
+        font-size: 8vw; 
     }
 }

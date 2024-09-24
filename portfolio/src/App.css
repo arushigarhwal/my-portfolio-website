@@ -1,22 +1,19 @@
-/* Ensure the body takes the full height of the viewport */
 html, body {
     height: 100%;
     margin: 0;
   }
   
-  /* Main app container */
   .App {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Full viewport height */
+    min-height: 100vh; 
+    
   }
   
-  /* Content container takes up remaining space to push footer down */
   .content-container {
-    flex: 1; /* Allows this section to grow and push footer down */
+    flex: 1;
   }
   
-  /* Footer styling */
   .footer-container {
     background-color: #222;
     color: white;

@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
     height: 5rem;
     width: 80vw;
     max-width: 80rem;
@@ -7,8 +7,21 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    position: relative;
 }
+
+.menu {
+    height: 3rem;
+    width: 3rem;
+    display: none; 
+    object-fit: cover;
+    margin-right: 0; 
+    position: absolute; 
+    right: 2rem; 
+    top: 50%; 
+    transform: translateY(-50%); 
+}
+
 .items{
     margin: 2rem;
     cursor: pointer;
@@ -16,7 +29,7 @@
 }
 .items:hover{
     padding-bottom: 1rem;
-    border-bottom: .15rem solid wheat;
+    border-bottom: .15rem solid #f5deb3;
 }
 .resume{
     background-color: wheat;
@@ -36,3 +49,64 @@
     color: wheat;
     cursor: pointer;
 }
+.mobileNav{
+    position: absolute;
+    top: 4rem;
+    right: 1rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    background-color: rgb(31, 29, 29);
+    border-radius: 1rem;
+}
+
+.mobile-items{
+    color: wheat;
+    padding: 0.5rem 3rem;
+    margin: .25rem;
+    cursor: pointer;
+
+}
+.mobile-items:hover{
+    font-weight: 600;
+}
+#logo{
+    display: none;
+}
+@media screen and (max-width: 720px) {
+    .navbar{
+        margin: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+        width: 95%;
+    }
+    .navDiv{
+        margin: 0px;
+    }
+    .nav {
+      display: none; 
+    }
+    #logo{
+        display: block;
+
+    }
+    #logo:hover{
+    padding-bottom: 0rem;
+    border-bottom: 0rem ;
+    }
+    .menu {
+      display: block; 
+      right: 0px;
+    }
+  
+    .mobileNav {
+      display: flex; 
+    }
+    .resume{
+        display: none;
+    }
+
+  }
