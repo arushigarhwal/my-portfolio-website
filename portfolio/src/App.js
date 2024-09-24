@@ -5,8 +5,7 @@ import AboutMe from './components/aboutMe/aboutMe';
 import Projects from './components/projects/projects';
 import Contact from './components/contact/contact';
 import Footer from './components/footer/footer';
-import Intro from './components/intro/intro'
-
+import Intro from './components/intro/intro';
 const App = () => {
   const renderPage = () => {
     switch (window.location.pathname) {
@@ -20,7 +19,6 @@ const App = () => {
             <Landing />
             <Intro />
             <Contact />
-            <Footer />
           </>
         );
     }
@@ -29,7 +27,10 @@ const App = () => {
   return (
     <div className="App">
       <NavBar />
-      {renderPage()}
+      <div className="content-container">
+        {renderPage()}
+      </div>
+      <Footer />
     </div>
   );
 };

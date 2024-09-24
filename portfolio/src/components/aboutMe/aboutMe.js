@@ -2,7 +2,6 @@ import React from 'react';
 import Skills from '../skills/skills';
 import codingImage from '../../assets/aboutMe-image.png'; 
 import './aboutMe.css'
-import Footer from '../footer/footer';
 const AboutMe = () => {
   return (
     <div>
@@ -17,7 +16,6 @@ const AboutMe = () => {
         </div>
       </section>
       <Skills />
-      <Footer />
     </div>
   );
 }

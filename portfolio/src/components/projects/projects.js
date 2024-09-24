@@ -2,11 +2,9 @@ import React from 'react';
 import "./projects.css";
 import ECommerce from "../../assets/ECommerce.png";
 import Portfolio from "../../assets/Portfolio.png"
-import Footer from '../footer/footer';
 
 const Projects = () => {
   return (
-    <div>
     <section id="projects">
       <h2 className="titleProj">Projects</h2>
       <span className="description">
@@ -33,8 +31,6 @@ const Projects = () => {
         </div>
     </div>
     </section>
-    <Footer/>
-    </div>
   );
 };
 
